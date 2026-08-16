@@ -7,7 +7,7 @@ A simple, strict-typed, and promise-driven wrapper for Roblox's native `task` li
 
 ## Installation
 
-1. Download the latest `.rbxm` model from the [Roblox Marketplace](https://create.roblox.com/store/asset/80290836879169/task).
+1. Download the latest `.rbxm` model from the [Roblox Marketplace](https://create.roblox.com/store/asset/112705296416001/task).
 2. Drop the folder into `ReplicatedStorage` or `ServerScriptService`.
 3. Require it in your scripts:
 
