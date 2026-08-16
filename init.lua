@@ -6,14 +6,14 @@
 	- @Jacket_Howla
 ]]
 
-local RunService = game:GetService("RunService");
-
-local TaskManager   = { Threads = {} };
-local ActiveThreads = 0;
+local RunService  = game:GetService("RunService");
+local TaskManager = { Threads = {} };
 
 local methods          = require(script.proximity_methods)(TaskManager);
 local type_marshaller  = require(script.type_marshaller);
 local parallel_states  = require(script.parallel_states);
+
+
 
 local function _executeAndComplete(FunctionOrThread: (...any) -> (...any) | thread, smartObj: any, ...: any): ()
 	
